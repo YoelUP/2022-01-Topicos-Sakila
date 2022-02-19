@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Topicos.Sakila.BL\Topicos.Sakila.BL.csproj" />
+    <ProjectReference Include="..\Topicos.Sakila.Model\Topicos.Sakila.Model.csproj" />
+  </ItemGroup>
+
 </Project>
